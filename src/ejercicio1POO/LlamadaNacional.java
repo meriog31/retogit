@@ -10,16 +10,6 @@ public class LlamadaNacional extends LlamadaLocal {
         super(numeroOrigen, numeroDestino, duracion);
         this.destino = destino;
         calcularCoste();
-        /*if(this.destino=='A'){
-            setCoste(duracion * 0.4 + 0.7);
-        } else if (this.destino=='B') {
-            setCoste(duracion*0.5+0.7);
-        } else if (this.destino=='C') {
-            setCoste(duracion*0.6+0.7);
-        }else{
-            System.out.println("El destino indicado no es correcto");
-        }
-         */
     }
 
     public char getDestino() {
