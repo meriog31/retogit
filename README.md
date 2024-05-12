@@ -1,4 +1,4 @@
-# RETO GIT
+# RETO GIT (img/GitHub-logo-2-imagen.jpg)
 
 ## Reto de GIT para la asignatura de Entornos de Desarrollo
 
