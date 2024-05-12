@@ -3,7 +3,7 @@ package ejercicio1POO;
 public class LlamadaInternacional {
     private long numeroOrigen;
     private long numeroDestino;
-    private double coste;
+    private double nuevoCoste;
     private double duracion;
 
 
@@ -11,7 +11,7 @@ public class LlamadaInternacional {
         this.numeroOrigen = numeroOrigen;
         this.numeroDestino = numeroDestino;
         this.duracion = duracion;
-        coste = duracion*0.4+1.2;
+        nuevoCoste = duracion*0.4+2.5;
     }
 
     public long getNumeroOrigen() {
